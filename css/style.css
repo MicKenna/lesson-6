@@ -182,3 +182,8 @@ footer >h1 {
     margin:0 auto;
     max-width: 960px;
 }
+
+/*bootstrap related*/
+.container-fluid {
+    padding:0;
+}
