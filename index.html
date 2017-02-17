@@ -29,8 +29,8 @@
              <nav id="nav">
                     <ul class="button-wrap">
                         <button> Schedule</button>
-                        <button> CSS</button>
-                        <button>HTML</button>
+                        <button data-toggle="modal" data-target="#css3_modal"> CSS</button>
+                        <button data-toggle="modal" data-target="#HTML5_modal">HTML</button>
                         <button>Responsive Design</button>
                     </ul>
                 </nav>
@@ -95,19 +95,20 @@
             </div>
 <!--end of middle-wrapper-->
        
-            <div id='favorit-sites' class="row">
-            
+            <div id='favorit-sites'>
+            <div class="row">
                 <div class='col-md-4 border'>
-                    <img src='images/fbook.png'>
+                    <img class="img-responsive" src='images/fbook.png'>
                 </div>
                 <div class='col-md-4 border'>
-                    <img src='images/twitter.png'>
+                    <img class="img-responsive" src='images/twitter.png'>
                 </div>
                 <div class='col-md-4 border'>
-                    <img src='images/Instagram.png'>
+                    <img class="img-responsive" src='images/Instagram.png'>
                 </div>
                 
 
+            </div>
             </div>
 <!--end of Container-->
 <div class="row">
@@ -116,6 +117,47 @@
     </div>
             </div>
  </div>
+<!--    emd containder div        -->
+<!-- Modal-HTML5 -->
+<div class="modal fade" id="HTML5_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/HTML5.png">
+          <br>
+          <p><strong>HTML</strong>is the latest evolution of the standard that defines HTML. The term represents two different concepts: It is a new version of the language HTML, with new elements, attributes, and behaviors, and a larger set of technologies that allows more diverse and powerful Web sites and applications.</p>
+          <br>
+          <p>Scource:</p><span><a></a></span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal-CSS3 -->
+<div class="modal fade" id="css3_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>            
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
